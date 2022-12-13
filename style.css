@@ -72,9 +72,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation-duration: 0.9s;
+  animation-name: pulseBtn;
+  transform: scale(1);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 .body_btn:hover, .body_btn:active {
   background: linear-gradient(266.47deg, #C9031B 12.32%, #FE2F47 88.89%);
+}
+@keyframes pulseBtn {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.05);
+  }
 }
 .lang_selector {
   position: relative;
@@ -148,7 +162,7 @@ body {
 @media (max-width: 500px) {
   body {
     align-items: flex-start;
-    background-image: url('./assets/bg_BG_mob.png');
+    background-image: url('./assets/bg_bg_desk.jpg');
     padding-top: 30px;
     /* padding-bottom: 100px; */
   }
