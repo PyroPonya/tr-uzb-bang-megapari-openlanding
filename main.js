@@ -1,3 +1,9 @@
+import bg_bg_desk from './assets/bg_bg_desk.jpg';
+import bg_bg_mob from './assets/bg_bg_mob.jpg';
+import bg_uzb_desk from './assets/bg_uzb_desk.jpg';
+import bg_uzb_mob from './assets/bg_uzb_mob.jpg';
+import bg_tr_desk from './assets/bg_tr_desk.jpg';
+import bg_tr_mob from './assets/bg_tr_mob.jpg';
 const langSelector = document.querySelector('.lang_selector');
 const langPicker = document.querySelector('.lang_picker');
 const langList = document.querySelector('.lang_list');
@@ -34,20 +40,20 @@ const langs = {
   bg: {
     body: 'প্রথম জমাতে 100% বোনাস পান',
     btn: 'একটি বোনাস পান',
-    bg: '/assets/bg_bg_desk.jpg',
-    bg_mob: '/assets/bg_bg_mob.jpg',
+    bg: bg_bg_desk,
+    bg_mob: bg_bg_mob,
   },
   uzb: {
     body: '100% birinchi depozit bonusini oling!',
     btn: 'BONUS OLISH',
-    bg: '/assets/bg_uzb_desk.jpg',
-    bg_mob: '/assets/bg_uzb_mob.jpg',
+    bg: bg_uzb_desk,
+    bg_mob: bg_uzb_mob,
   },
   tr: {
     body: '%100 ilk para yatırma bonusunu alın!',
     btn: 'IKRAMIYE ALMAK',
-    bg: '/assets/bg_tr_desk.jpg',
-    bg_mob: '/assets/bg_tr_mob.jpg',
+    bg: bg_tr_desk,
+    bg_mob: bg_tr_mob,
   },
 };
 // set qwerty
