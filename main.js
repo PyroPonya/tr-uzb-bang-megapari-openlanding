@@ -34,20 +34,20 @@ const langs = {
   bg: {
     body: 'প্রথম জমাতে 100% বোনাস পান',
     btn: 'একটি বোনাস পান',
-    bg: './assets/bg_BG_desk.png',
-    bg_mob: './assets/bg_BG_mob.png',
+    bg: '/assets/bg_BG_desk.png',
+    bg_mob: '/assets/bg_BG_mob.png',
   },
   uzb: {
     body: '100% birinchi depozit bonusini oling!',
     btn: 'BONUS OLISH',
-    bg: './assets/bg_UZB_desk.png',
-    bg_mob: './assets/bg_UZB_mob.png',
+    bg: '/assets/bg_UZB_desk.png',
+    bg_mob: '/assets/bg_UZB_mob.png',
   },
   tr: {
     body: '%100 ilk para yatırma bonusunu alın!',
     btn: 'IKRAMIYE ALMAK',
-    bg: './assets/bg_TR_desk.png',
-    bg_mob: './assets/bg_TR_mob.png',
+    bg: '/assets/bg_TR_desk.png',
+    bg_mob: '/assets/bg_TR_mob.png',
   },
 };
 // set qwerty
